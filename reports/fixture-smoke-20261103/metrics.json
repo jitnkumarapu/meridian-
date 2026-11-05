@@ -1,0 +1,100 @@
+{
+  "baseline_vs_multimodal_mrr_p_value": 1.0,
+  "run_id": "fixture-smoke-20261103",
+  "sample_size": 3,
+  "systems": {
+    "baseline": {
+      "citation_valid_rate": 1.0,
+      "grounded_rate": 1.0,
+      "mrr": {
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "mean": 0.6666666666666666
+      },
+      "numeric_exact_match": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "recall@1": {
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "mean": 0.6666666666666666
+      },
+      "recall@10": {
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "mean": 0.6666666666666666
+      },
+      "recall@3": {
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "mean": 0.6666666666666666
+      },
+      "recall@5": {
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "mean": 0.6666666666666666
+      }
+    },
+    "multimodal": {
+      "citation_valid_rate": 1.0,
+      "grounded_rate": 1.0,
+      "mrr": {
+        "ci95": [
+          0.25,
+          1.0
+        ],
+        "mean": 0.75
+      },
+      "numeric_exact_match": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "recall@1": {
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "mean": 0.6666666666666666
+      },
+      "recall@10": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "mean": 1.0
+      },
+      "recall@3": {
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "mean": 0.6666666666666666
+      },
+      "recall@5": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "mean": 1.0
+      }
+    }
+  },
+  "verified_sample_size": 0
+}

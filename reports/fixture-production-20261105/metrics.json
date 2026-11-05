@@ -1,0 +1,241 @@
+{
+  "baseline_vs_multimodal_mrr_p_value": 1.0,
+  "run_id": "fixture-production-20261105",
+  "sample_size": 3,
+  "systems": {
+    "baseline": {
+      "breakdowns": {
+        "document": {},
+        "modality": {},
+        "question_type": {
+          "figure": {
+            "mrr": 0.0,
+            "recall@5": 0.0,
+            "sample_size": 1.0
+          },
+          "table": {
+            "mrr": 1.0,
+            "recall@5": 1.0,
+            "sample_size": 1.0
+          },
+          "text": {
+            "mrr": 1.0,
+            "recall@5": 1.0,
+            "sample_size": 1.0
+          }
+        },
+        "verified": {
+          "false": {
+            "mrr": 0.6666666666666666,
+            "recall@5": 0.6666666666666666,
+            "sample_size": 3.0
+          }
+        }
+      },
+      "citation_valid_rate": 1.0,
+      "failure_categories": {
+        "numeric_mismatch": 3,
+        "retrieval_miss": 1
+      },
+      "grounded_rate": 1.0,
+      "latency_ms": {
+        "ci95": [
+          0.22280000848695636,
+          0.9468000207562
+        ],
+        "mean": 0.4984666787398358
+      },
+      "mrr": {
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "mean": 0.6666666666666666
+      },
+      "numeric_exact_match": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "precision@1": {
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "mean": 0.6666666666666666
+      },
+      "precision@10": {
+        "ci95": [
+          0.0,
+          0.10000000000000002
+        ],
+        "mean": 0.06666666666666667
+      },
+      "precision@3": {
+        "ci95": [
+          0.0,
+          0.3333333333333333
+        ],
+        "mean": 0.2222222222222222
+      },
+      "precision@5": {
+        "ci95": [
+          0.0,
+          0.20000000000000004
+        ],
+        "mean": 0.13333333333333333
+      },
+      "recall@1": {
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "mean": 0.6666666666666666
+      },
+      "recall@10": {
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "mean": 0.6666666666666666
+      },
+      "recall@3": {
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "mean": 0.6666666666666666
+      },
+      "recall@5": {
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "mean": 0.6666666666666666
+      },
+      "token_usage": {
+        "mean": 31.666666666666668,
+        "sample_size": 3
+      }
+    },
+    "multimodal": {
+      "breakdowns": {
+        "document": {},
+        "modality": {},
+        "question_type": {
+          "figure": {
+            "mrr": 1.0,
+            "recall@5": 1.0,
+            "sample_size": 1.0
+          },
+          "table": {
+            "mrr": 0.2,
+            "recall@5": 1.0,
+            "sample_size": 1.0
+          },
+          "text": {
+            "mrr": 0.3333333333333333,
+            "recall@5": 1.0,
+            "sample_size": 1.0
+          }
+        },
+        "verified": {
+          "false": {
+            "mrr": 0.5111111111111111,
+            "recall@5": 1.0,
+            "sample_size": 3.0
+          }
+        }
+      },
+      "citation_valid_rate": 1.0,
+      "failure_categories": {
+        "numeric_mismatch": 3
+      },
+      "grounded_rate": 1.0,
+      "latency_ms": {
+        "ci95": [
+          0.17129999469034374,
+          0.4265999887138605
+        ],
+        "mean": 0.3203999949619174
+      },
+      "mrr": {
+        "ci95": [
+          0.20000000000000004,
+          1.0
+        ],
+        "mean": 0.5111111111111111
+      },
+      "numeric_exact_match": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "mean": 0.0
+      },
+      "precision@1": {
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "mean": 0.3333333333333333
+      },
+      "precision@10": {
+        "ci95": [
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        "mean": 0.10000000000000002
+      },
+      "precision@3": {
+        "ci95": [
+          0.0,
+          0.3333333333333333
+        ],
+        "mean": 0.2222222222222222
+      },
+      "precision@5": {
+        "ci95": [
+          0.20000000000000004,
+          0.20000000000000004
+        ],
+        "mean": 0.20000000000000004
+      },
+      "recall@1": {
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "mean": 0.3333333333333333
+      },
+      "recall@10": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "mean": 1.0
+      },
+      "recall@3": {
+        "ci95": [
+          0.0,
+          1.0
+        ],
+        "mean": 0.6666666666666666
+      },
+      "recall@5": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "mean": 1.0
+      },
+      "token_usage": {
+        "mean": 15.0,
+        "sample_size": 3
+      }
+    }
+  },
+  "verified_sample_size": 0
+}

@@ -1,0 +1,10 @@
+# Evaluation run fixture-final-20261104-v2
+
+Measured questions: 3 (0 human-verified).
+
+| System | MRR (95% CI) | Recall@5 (95% CI) | Numeric EM (95% CI) |
+|---|---:|---:|---:|
+| baseline | 0.667 [0.000, 1.000] | 0.667 [0.000, 1.000] | 0.000 [0.000, 0.000] |
+| multimodal | 0.750 [0.250, 1.000] | 1.000 [1.000, 1.000] | 0.000 [0.000, 0.000] |
+
+All figures above are computed from `per_question.jsonl` in this run.

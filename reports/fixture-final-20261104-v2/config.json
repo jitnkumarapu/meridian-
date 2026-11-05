@@ -1,0 +1,43 @@
+{
+  "baseline": {
+    "figures": true,
+    "tables_flat": false
+  },
+  "embedding": {
+    "batch_size": 32,
+    "clip_model": "ViT-B-32",
+    "clip_pretrained": "laion2b_s34b_b79k",
+    "device": "auto",
+    "test_mode": false,
+    "text_model": "sentence-transformers/all-MiniLM-L6-v2"
+  },
+  "generation": {
+    "max_tokens": 512,
+    "model": "deterministic-evidence-v1",
+    "provider": "mock",
+    "temperature": 0.0,
+    "use_vision": false
+  },
+  "ingestion": {
+    "chunk_tokens": 300,
+    "min_text_chars": 40,
+    "ocr_language": "eng",
+    "overlap_tokens": 45
+  },
+  "paths": {
+    "indexes": "data\\indexes",
+    "processed": "data\\processed",
+    "raw": "data\\raw",
+    "reports": "reports"
+  },
+  "retrieval": {
+    "candidate_k": 20,
+    "dense_weight": 0.6,
+    "diversity_margin": 0.1,
+    "fusion": "rrf",
+    "rrf_k": 60,
+    "sparse_weight": 0.4,
+    "top_k": 5
+  },
+  "seed": 42
+}

@@ -1,0 +1,11 @@
+/src/mmrag/ingestion/ @rishith-pai
+/src/mmrag/extraction/ @rishith-pai
+/src/mmrag/embedding/ @jitin-kumarapu
+/src/mmrag/indexing/ @jitin-kumarapu
+/src/mmrag/retrieval/ @jitin-kumarapu
+/src/mmrag/generation/ @anerudh-ramachandran
+/src/mmrag/evaluation/ @anerudh-ramachandran @sachin-bhat
+/src/mmrag/baseline/ @sachin-bhat
+/src/mmrag/api/ @sachin-bhat
+/src/mmrag/app/ @sachin-bhat
+/frontend/ @sachin-bhat
