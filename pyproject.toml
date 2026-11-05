@@ -63,5 +63,5 @@ strict = true
 packages = ["mmrag"]
 
 [[tool.mypy.overrides]]
-module = ["yaml", "pytesseract"]
+module = ["pdfplumber", "pytesseract", "sentence_transformers", "streamlit", "yaml"]
 ignore_missing_imports = true
